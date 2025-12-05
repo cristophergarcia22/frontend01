@@ -1,0 +1,88 @@
+/* ===== Body & Font ===== */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(120deg, #fff1e6, #ffd699); /* Wattpad-style soft gradient */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* ===== App Container ===== */
+#app {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: #FFF; /* white card for content */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* ===== Buttons ===== */
+button {
+    background-color: #FF6F00; /* Wattpad orange */
+    color: #FFF;
+    border: none;
+    padding: 10px 16px;
+    margin: 4px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #FF8F00;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* ===== Tables ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #F5F5F5; /* light gray table */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #DDD;
+    padding: 10px 14px;
+    text-align: left;
+}
+
+th {
+    background-color: #FF6F00; /* table header in orange */
+    color: #FFF;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #FFE0B2; /* subtle orange highlight on hover */
+}
+
+/* ===== Headings ===== */
+h2 {
+    color: #FF6F00;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #FF6F00;
+    padding-bottom: 5px;
+}
+
+/* ===== Inputs ===== */
+input {
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    border: 1px solid #CCC;
+    border-radius: 6px;
+    width: 220px;
+    transition: border 0.2s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #FF6F00;
+    box-shadow: 0 0 5px rgba(255,111,0,0.5);
+}
